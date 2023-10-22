@@ -21,7 +21,7 @@ custom_palette <- c(
 #Temperatura
 ggplot(DatosTR,
        aes(x=Temperatura,
-           fill=Personas))+
+           fill=Personas1))+
   geom_histogram(bins=35, alpha=0.4)+
   scale_fill_manual(values = custom_palette)+
   ggdark::dark_mode()+
@@ -35,7 +35,7 @@ ggplot(DatosTR,
 #Resistencia
 ggplot(DatosTR,
        aes(x=Resistencia,
-           fill=Personas))+
+           fill=Personas1))+
   geom_histogram(bins=35, alpha=0.4)+
   scale_fill_manual(values = custom_palette)+
   ggdark::dark_mode()+
